@@ -2,19 +2,21 @@
 ## 命令操作
 
 * ### 运行APP
+
 ```shell
-PS F:\ginadmin> go run .\cmd\ginadmin\ run -h
-Run app
+  PS F:\ginadmin> go run .\cmd\ginadmin\ run -h
+  Run app
 
-Usage:
-  ginadmin run [flags]
+  Usage:
+    ginadmin run [flags]
 
-Flags:
-  -c, --config path string   config path
-  -h, --help                 help for run
-  -m, --mode string          dev or release (default "dev")
+  Flags:
+    -c, --config path string   config path
+    -h, --help                 help for run
+    -m, --mode string          dev or release (default "dev")
 ```
 * ### 数据表迁移命令
+
 ```shell
 PS F:\ginadmin> go run .\cmd\ginadmin\ db migrate -h
 DB Migrate
@@ -31,14 +33,14 @@ Flags:
 * ### 数据填充命令
 
 ```shell
-PS F:\ginadmin> go run .\cmd\ginadmin\ db seed -h   
-DB Seed
+  PS F:\ginadmin> go run .\cmd\ginadmin\ db seed -h   
+  DB Seed
 
-Usage:
-  ginadmin db seed [-t table] [flags]
+  Usage:
+    ginadmin db seed [-t table] [flags]
 
-Flags:
-  -c, --config path string   config path
-  -h, --help                 help for seed
-  -t, --table string         input a table name
+  Flags:
+    -c, --config path string   config path
+    -h, --help                 help for seed
+    -t, --table string         input a table name
 ```

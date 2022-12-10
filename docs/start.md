@@ -1,16 +1,16 @@
-1. git 克隆地址 
+## 1. git 克隆地址 
    
    ```
    git clone https://github.com/gphper/ginadmin.git
    ```
 
-2. 下载依赖包
+## 2. 下载依赖包
    
    ```go
    go mod download
    ```
 
-3. 配置 `configs/config.yaml`文件
+## 3. 配置 `configs/config.yaml`文件
    
    ```yaml
    mysql:
@@ -34,4 +34,7 @@
       log_media: "redis"
    ```
 
-4. 运行 `go run .\cmd\ginadmin`访问地址 http://localhost:端口地址/admin/login。默认账户：admin  密码：111111
+## 运行命令 
+   `go run .\cmd\ginadmin` <br/>
+   访问地址 http://localhost:端口地址/admin/login <br/>
+   默认账户：admin  密码：111111

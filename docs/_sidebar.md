@@ -1,6 +1,8 @@
 * [介绍](/README.md)
 * 使用文档
     * [开始使用](/start.md)
+    * [控制器](/controller.md)
     * [错误处理](/error.md)
+    * [路由设置](/router.md)
     * [命令操作](/cli.md)
 * [依赖](/depend.md)

@@ -62,7 +62,7 @@ Flags:
     -t, --typename string         input typename api or admin
 ```
 
-* ### 创建Model文件
+* ### <a name="model">创建Model文件</a>
 > go run .\cmd\ginadmin\ file model -m shop_type
 ```shell
   PS F:\ginadmin> go run .\cmd\ginadmin\ file model -h

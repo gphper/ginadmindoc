@@ -9,4 +9,4 @@
 2. 接口控制器要实现 `internal/router/icontroller 下的 IApiController`
 
 * ### 使用命令创建控制器
-参看 [cli](/cli.md#controller)
+参看 [cli](/cli.md#创建Controller文件)

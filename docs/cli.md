@@ -45,7 +45,7 @@ Flags:
     -t, --table string         input a table name
 ```
 
-* ### 创建Controller文件
+* ### <a name="controller">创建Controller文件</a>
 > go run .\cmd\ginadmin\ file controller -p=shop -c=shopController -t=admin
 ```shell
   PS F:\ginadmin> go run .\cmd\ginadmin\ file controller -h

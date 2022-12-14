@@ -44,3 +44,34 @@ Flags:
     -h, --help                 help for seed
     -t, --table string         input a table name
 ```
+
+* ### 创建Controller文件
+> go run .\cmd\ginadmin\ file controller -p=shop -c=shopController -t=admin
+```shell
+  PS F:\ginadmin> go run .\cmd\ginadmin\ file controller -h
+  create controller file
+
+  Usage:
+    ginadmin file controller [-p pagename -c controllerName -m methods] [flags]
+
+  Flags:
+    -c, --controllerName string   input controller name eg: AdminController
+    -h, --help                    help for controller
+    -m, --methods string          input methods eg: index:get,add:get (default "list:get,add:get,save:post,edit:get,del:get")
+    -p, --pagename string         input pagename eg: setting
+    -t, --typename string         input typename api or admin
+```
+
+* ### 创建Model文件
+> go run .\cmd\ginadmin\ file model -m shop_type
+```shell
+  PS F:\ginadmin> go run .\cmd\ginadmin\ file model -h
+  create model
+
+  Usage:
+    ginadmin file model [-m modelName] [flags]
+
+  Flags:
+    -h, --help           help for model
+    -m, --model string   input model name eg: shop_items 
+```

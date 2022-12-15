@@ -12,14 +12,33 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: '',
+      name: 'GinAdmin',
+      repo: 'gphper/ginadmin',
       coverpage: true,
       onlyCover: true,
       loadSidebar: true,
+      subMaxLevel: 3,
+      copyCode: {
+        buttonText : '点击复制',
+        errorText  : '复制出错',
+        successText: '复制成功'
+      },
+      'flexible-alerts': {
+        note: {
+          label: "注意"
+        },
+        tip: {
+          label: "建议"
+        },
+        warning: {
+          label: "警告"
+        },
+      },
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="https://unpkg.com/docsify-copy-code@2"></script>
+  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
 </body>
 </html>

@@ -1,4 +1,3 @@
-
 ## 命令操作
 
 * ### 运行APP
@@ -45,7 +44,7 @@ Flags:
     -t, --table string         input a table name
 ```
 
-* ### <a name="controller">创建Controller文件</a>
+* ### 创建Controller文件
 > go run .\cmd\ginadmin\ file controller -p=shop -c=shopController -t=admin
 ```shell
   PS F:\ginadmin> go run .\cmd\ginadmin\ file controller -h
@@ -62,7 +61,7 @@ Flags:
     -t, --typename string         input typename api or admin
 ```
 
-* ### <a name="model">创建Model文件</a>
+* ### 创建Model文件
 > go run .\cmd\ginadmin\ file model -m shop_type
 ```shell
   PS F:\ginadmin> go run .\cmd\ginadmin\ file model -h

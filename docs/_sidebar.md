@@ -3,6 +3,7 @@
     * [开始使用](/start.md)
     * [控制器](/controller.md)
     * [数据库操作](/model.md)
+    * [配置管理](/config.md)
     * [错误处理](/error.md)
     * [路由设置](/router.md)
     * [中间件](/middleware.md)

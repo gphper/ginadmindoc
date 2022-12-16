@@ -38,7 +38,7 @@
 
     在控制器中获取管理员信息时，可以使用 `c.Get()` 的方式获取，默认context中包含以下几个信息
     
-    ```golang
+    ```go
         // 管理员名称
         c.Set("username", userData.Username)
         // 管理员id

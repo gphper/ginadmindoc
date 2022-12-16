@@ -2,7 +2,7 @@
 
 * ### 运行APP
 
-```shell
+```powershell
   PS F:\ginadmin> go run .\cmd\ginadmin\ run -h
   Run app
 
@@ -16,7 +16,7 @@
 ```
 * ### 数据表迁移命令
 
-```shell
+```powershell
 PS F:\ginadmin> go run .\cmd\ginadmin\ db migrate -h
 DB Migrate
 
@@ -31,7 +31,7 @@ Flags:
 
 * ### 数据填充命令
 
-```shell
+```powershell
   PS F:\ginadmin> go run .\cmd\ginadmin\ db seed -h   
   DB Seed
 
@@ -46,7 +46,8 @@ Flags:
 
 * ### 创建Controller文件
 > go run .\cmd\ginadmin\ file controller -p=shop -c=shopController -t=admin
-```shell
+
+```powershell
   PS F:\ginadmin> go run .\cmd\ginadmin\ file controller -h
   create controller file
 
@@ -63,7 +64,8 @@ Flags:
 
 * ### 创建Model文件
 > go run .\cmd\ginadmin\ file model -m shop_type
-```shell
+
+```powershell
   PS F:\ginadmin> go run .\cmd\ginadmin\ file model -h
   create model
 

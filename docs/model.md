@@ -46,7 +46,7 @@
     ```
     2. 在model文件 `GetConnName` 方法中设置连接名称
 
-    ```golang
+    ```go
         func (au *AdminUsers) GetConnName() string {
             return "default"
         }

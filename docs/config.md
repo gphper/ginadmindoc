@@ -4,7 +4,7 @@
 
     在 `configs/config.go` 添加配置项的 struct 类型，例如
     
-    ```golang
+    ```go
     type AppConf struct {
         BaseConf `yaml:"base"`
     }
@@ -22,6 +22,6 @@
 
 * ### 代码中获取配置信息
     
-    ```golang
+    ```go
       configs.App.BaseConf.Port
     ```

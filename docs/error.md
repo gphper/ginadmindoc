@@ -3,7 +3,7 @@
 * ### 只返回错误信息时
 >  package `github.com/gphper/ginadmin/internal/errorx`
 
-	```golang
+	```go
 		err = apicon.FormBind(c, &req)
 		if err != nil {
 
@@ -14,7 +14,7 @@
 
 * ### 需要将err信息一起打印或记录时
 >   package `github.com/gphper/ginadmin/internal/errorx`
-```golang
+```go
     err = db.Count(&count).Error
 	if err != nil {
 		
@@ -25,7 +25,7 @@
 ## 控制器中使用 <br/>
 
 * ### 在后台管理页面展示错误 `con.ErrorHtml(c *gin.Context, err error)`
-```golang
+```go
     articleData, err := paginater.PageOperation(c, adminDb, 1, &articleList)
 	if err != nil {
 		con.ErrorHtml(c, err)
@@ -34,7 +34,7 @@
 ```
 
 * ### 在接口中展示错误 `apicon.Error(c *gin.Context, err error)`
-```golang
+```go
     err = apiservice.NewApiUserService().Register(req)
 	if err != nil {
 		apicon.Error(c, err)

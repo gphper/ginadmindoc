@@ -3,7 +3,7 @@
 * ### 运行APP
 
 ```powershell
-  PS F:\ginadmin> go run .\cmd\ginadmin\ run -h
+  PS F:\ginadmin> go run .\cmd\ginadmin\ run --help    
   Run app
 
   Usage:
@@ -11,8 +11,9 @@
 
   Flags:
     -c, --config path string   config path
+    -t, --cron string          scheduled task control open or close (default "open")
     -h, --help                 help for run
-    -m, --mode string          dev or release (default "dev")
+    -m, --mode string          debug or release (default "debug")
 ```
 * ### 数据表迁移命令
 

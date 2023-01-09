@@ -40,3 +40,28 @@
    `go run .\cmd\ginadmin` <br/>
    访问地址 http://localhost:端口地址/admin/login <br/>
    默认账户：admin  密码：111111
+
+* ### Debug 配置
+   + VsCode 配置
+   ```launch.json
+   {
+      "version": "0.2.0",
+      "configurations": [
+         {
+               "name": "ginadmin",
+               "type": "go",
+               "request": "launch",
+               "mode": "debug",
+               "program": "${workspaceRoot}/cmd/ginadmin",
+               "trace": true,
+               "args":[
+                  "run",
+                  "-c=${workspaceRoot}"
+               ],
+         }
+      ]
+   }
+   ```
+
+   + Goland 配置
+   ![goland配置](https://user-images.githubusercontent.com/18718299/211311066-889e162b-6228-43e4-a5d2-98a00235849b.PNG)

@@ -14,4 +14,5 @@
     * [日志操作](/log.md)
     * [文件存储](/storage.md)
     * [命令操作](/cli.md)
+    * [单元测试](/test.md)
 * [依赖](/depend.md)

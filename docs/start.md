@@ -35,7 +35,13 @@
       port: 20011
       log_media: "redis"
    ```
-
+* ### 迁移数据库和填充数据
+   ```
+      go run .\cmd\ginadmin db migrate
+   ```
+   ```
+      go run .\cmd\ginadmin db seed
+   ```
 * ### 运行命令 
    `go run .\cmd\ginadmin` <br/>
    访问地址 http://localhost:端口地址/admin/login <br/>
